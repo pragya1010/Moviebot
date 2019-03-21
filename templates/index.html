@@ -1,0 +1,87 @@
+ <!-- /templates/index.html -->
+
+    <!doctype html>
+    <html lang="en">
+      <head>
+          <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>Movie Bot</title>
+      </head>
+      <!--https://png.pngtree.com/thumb_back/fh260/back_pic/02/66/12/425789c9ee094f4.jpg-->
+      <!--https://cdn2.vectorstock.com/i/1000x1000/43/16/hand-drawn-vintage-movie-and-cinema-background-vector-1754316.jpg-->
+      <!--https://png.pngtree.com/thumb_back/fh260/back_pic/02/66/12/425789c9ee094f4.jpg-->
+      <!--https://previews.123rf.com/images/9dreamstudio/9dreamstudio1802/9dreamstudio180203974/96499213-cinema-background-glasses-popcorn-drink-and-clapperboard-on-white-background-top-view.jpg-->
+      <!--https://cdn1.vectorstock.com/i/1000x1000/43/50/hand-drawn-vintage-movie-and-cinema-background-vector-1754350.jpg-->
+      <!--a= 'https://ae01.alicdn.com/kf/HTB1JxLnRVXXXXb4aXXXq6xXFXXXv/Hollywood-Movie-Retro-Film-Video-photo-studio-background-Vinyl-cloth-High-quality-Computer-printed-party-backdrop.jpg_640x640.jpg'-->
+      <body >
+
+            <div class="container h-100">
+                <!--<div class="row align-items-center h-50" style="background: blueviolet"> </div>-->
+
+                <div class="row align-items-center h-100" >
+                    <div class="col-md-6 col-sm-12 mx-auto">
+                        <marquee behavior=" scroll" direction="left">
+                        <div class = "row align-items-center">
+
+                            <div class="col-md-6">
+                                <img src="https://www.marinabaysands.com/content/dam/singapore/marinabaysands/master/main/home/entertainment/captain-marvel/OPENWORLD_TT_final_18_1920x1234.jpg">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="https://i.annihil.us/u/prod/marvel/movies/blackpanther/social/assets/global_share_1200x630.jpg">
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class = "row align-items-center">
+                            <div class="col-md-6" >
+                                <img src="https://boygeniusreport.files.wordpress.com/2018/12/aquaman.jpg?quality=98&strip=all&w=782">
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <img src="https://a9p9n2x2.stackpathcdn.com/wp-content/blogs.dir/1/files/2018/11/Green_Book_Home.png">
+                            </div>
+                        </div>
+                        <br>
+                        <div class = "row align-items-center">
+                            <div class="col-md-6">
+                                <img src="https://i.ytimg.com/vi/VVY3do673Zc/maxresdefault.jpg">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="http://www.hans-zimmer.com/~hybrid/powell/DRAGON3.jpg">
+                            </div>
+                        </div>
+
+                        </marquee>
+                    </div>
+
+
+                        <!--Main part - Be careful-->
+                    <div class="col-md-6 col-sm-12 mx-auto" >
+                        <div class="h-100 justify-content-center">
+                            <div class="chat-container" style="overflow: auto; max-height: 80vh; background-image: url('https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?cs=srgb&dl=background-brick-bricks-220182.jpg&fm=jpg'); background-size: cover">
+                            <!-- chat messages -->
+                            </div>
+                            <form id="target" >
+                            <input class="input" type="text" value="" placeholder="Enter message..." id="input_message"/>
+                            <input type="submit" hidden>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+        <script src="{{ url_for('static', filename='custom.js')}}"></script>
+      </body>
+    </html>

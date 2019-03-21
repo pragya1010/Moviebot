@@ -1,0 +1,229 @@
+{
+  "id": "2215cd89-3feb-42c6-b193-d17796cc551b",
+  "name": "movie",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6d6455ca-93be-46dd-a9ec-a703990ce67b",
+          "required": false,
+          "dataType": "@movie",
+          "name": "movie",
+          "value": "$movie",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548822361,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "075edd76-35cd-4d14-8702-166c8e2f786c",
+      "data": [
+        {
+          "text": "Show details about "
+        },
+        {
+          "text": "The Mummy",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1548822151,
+      "isAuto": false
+    },
+    {
+      "id": "a9861be4-e97c-4ec5-bc3a-a9925e4a602e",
+      "data": [
+        {
+          "text": "I want to know more about "
+        },
+        {
+          "text": "Upgrade",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1548822151,
+      "isAuto": false
+    },
+    {
+      "id": "15e4c94d-faca-49db-b806-74942d5e0da1",
+      "data": [
+        {
+          "text": "More about "
+        },
+        {
+          "text": "Black Panther",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1548822151,
+      "isAuto": false
+    },
+    {
+      "id": "38819a50-2d36-44b2-8b09-66efc0d0011b",
+      "data": [
+        {
+          "text": "Give insights on the movie "
+        },
+        {
+          "text": "Avenger Infinity War",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1548822151,
+      "isAuto": false
+    },
+    {
+      "id": "48ba16ef-af55-4090-b802-70ca55b867c5",
+      "data": [
+        {
+          "text": "Show me some information on "
+        },
+        {
+          "text": "Creed",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1548822151,
+      "isAuto": false
+    },
+    {
+      "id": "8fb4aa5a-85db-4e90-ba6d-e434d4d8f0da",
+      "data": [
+        {
+          "text": "Tell me Something about "
+        },
+        {
+          "text": "URI",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1548822151,
+      "isAuto": false
+    },
+    {
+      "id": "365bc13c-d448-4be6-a1af-9c0358eedd2c",
+      "data": [
+        {
+          "text": "Fetch details on "
+        },
+        {
+          "text": "Bumble Bee",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        },
+        {
+          "text": " for me."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1548822151,
+      "isAuto": false
+    },
+    {
+      "id": "bd59b4da-65c0-4a07-95fc-b5a69b17dfba",
+      "data": [
+        {
+          "text": "Give me the synopsis on  "
+        },
+        {
+          "text": "A Beautiful Mind",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1548822151,
+      "isAuto": false
+    },
+    {
+      "id": "1d53a26c-8c46-437e-bf1b-ddec747ec906",
+      "data": [
+        {
+          "text": "I wanna know about "
+        },
+        {
+          "text": "The Wolf of Wallstreet.",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1548822151,
+      "isAuto": false
+    },
+    {
+      "id": "ccb281e2-a34e-4e49-9f54-b9438c71b914",
+      "data": [
+        {
+          "text": "Give me some info on "
+        },
+        {
+          "text": "The Wolf of Wallstreet.",
+          "alias": "movie",
+          "meta": "@movie",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1548822151,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

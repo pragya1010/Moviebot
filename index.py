@@ -16,8 +16,8 @@ def index():
     return render_template('index.html')
 
 
-# API_KEY = 'd94c6fa8'
-API_KEY = 'd94c6fa8'
+
+API_KEY = 'XXXX'
 project_id = 'erica-6500d'
 
 GOOGLE_APPLICATION_CREDENTIALS = {
@@ -36,22 +36,6 @@ key = "XXXXX"
 secret = "XXXX"
 cluster = "XXX"
 
-PUSHER_APP_ID = app_id
-PUSHER_KEY = key
-PUSHER_SECRET = secret
-PUSHER_CLUSTER = cluster
-# pusher_client = pusher.Pusher(
-#         app_id=os.getenv('PUSHER_APP_ID'),
-#         key=os.getenv('PUSHER_KEY'),
-#         secret=os.getenv('PUSHER_SECRET'),
-#         cluster=os.getenv('PUSHER_CLUSTER'),
-#         ssl=True)
-pusher_client = pusher.Pusher(
-    app_id=PUSHER_APP_ID,
-    key=PUSHER_KEY,
-    secret=PUSHER_SECRET,
-    cluster=PUSHER_CLUSTER,
-    ssl=True)
 
 
 # http://www.omdbapi.com/?t=Black Panther&apikey=d94c6fa8
@@ -62,7 +46,7 @@ def get_movie_detail():
     print(data)
     movie = data['queryResult']['parameters']['movie']
     print("Movie : {}", movie)
-    api_key = 'd94c6fa8'
+    api_key = 'XXXXX'
 
     movie_detail = requests.get('http://www.omdbapi.com/?t={0}&apikey={1}'.format(movie, api_key)).content
     movie_detail = json.loads(movie_detail)
@@ -109,7 +93,7 @@ def detect_intent_texts(project_id, session_id, text, language_code):
 @app.route('/send_message', methods=['POST'])
 def send_message():
     message = request.form['message']
-    project_id = 'erica-6500d'
+    project_id = 'YOUR PROJECT ID'
     fulfillment_text = detect_intent_texts(project_id, "unique", message, 'en')
     response_text = {"message": fulfillment_text}
     
